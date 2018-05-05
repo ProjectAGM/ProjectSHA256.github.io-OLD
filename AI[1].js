@@ -26,7 +26,7 @@ colorR = "#000000"; };
 ctx.fillStyle = colorR;
 	ctx.fillText(".",xR,yR);
 INP--;
-document.getElementById(p1).innerHTML = INP;
+document.getElementById("p1").innerHTML = INP;
 } ;
 INP = parseInt(document.getElementById("INPUT").value);
 } ;
