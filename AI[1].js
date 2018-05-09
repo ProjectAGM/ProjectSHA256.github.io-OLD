@@ -31,3 +31,4 @@ document.getElementById("p1").innerHTML = INP.toString();
 INP = parseInt(document.getElementById("INPUT").value);
 } ;
 
+function PixelSize(size) {ctx.font = (size.toString()).concat("px Arial");}
