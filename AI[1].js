@@ -9,9 +9,6 @@ var INP = 0;
 
 ctx.font = "100px Arial";
 
-function DRAW() {
-ctx.fillText(".",xR,yR);
-};
 function RenderStart() {
 INP = parseInt(document.getElementById("INPUT").value);
 while (INP > 0) {
