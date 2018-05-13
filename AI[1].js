@@ -9,6 +9,10 @@ var INP = 0;
 
 ctx.font = "100px Arial";
 
+function DRAW() {
+ctx.fillText(".",xR,yR);
+};
+
 function RenderStart() {
 INP = parseInt(document.getElementById("INPUT").value);
 while (INP > 0) {
@@ -24,7 +28,7 @@ colorR = "#FF0000";
 } else if (colorN == 0) {
 colorR = "#000000"; };
 ctx.fillStyle = colorR;
-	ctx.fillText(".",xR,yR);
+DRAW();
 INP--;
 document.getElementById("p1").innerHTML = INP.toString();
 } ;
