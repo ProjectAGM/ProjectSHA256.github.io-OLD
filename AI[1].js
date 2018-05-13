@@ -27,7 +27,7 @@ colorR = "#FF0000";
 } else if (colorN == 0) {
 colorR = "#000000"; };
 ctx.fillStyle = colorR;
-DRAW();
+setTimeout(ctx.fillText(".",xR,yR),1);
 INP--;
 document.getElementById("p1").innerHTML = INP.toString();
 } ;
